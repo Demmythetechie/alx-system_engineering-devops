@@ -5,3 +5,4 @@ Task 3: Diplays the content of /etc/passwd and /etc/passwd
 Task 4: Display the last ten lines of passwd file
 Task 5: Display the first ten lines of passwd file
 Task 6: Displays the third line of file iacta
+Task 7: create a file with content Best School
