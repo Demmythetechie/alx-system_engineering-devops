@@ -4,3 +4,4 @@ Task 2: Add /action to the PATH. /action should be the last directory the shell 
 Task 3: Created a script that counts the number of directories in the PATH.
 Task 4: Created a script that lists environment variables.
 Task 5: Created a script that lists all local variables and environment variables and functions
+Task 6: Created a script that creates a new local variable.
