@@ -6,3 +6,5 @@ Task 4: Display the last ten lines of passwd file
 Task 5: Display the first ten lines of passwd file
 Task 6: Displays the third line of file iacta
 Task 7: create a file with content Best School
+Task 8: Redirecting standard output to file ls_cwd_content
+Task 9: Duplicate last line into file iacta.
