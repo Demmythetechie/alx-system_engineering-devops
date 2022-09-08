@@ -9,3 +9,4 @@ Task 7: create a file with content Best School
 Task 8: Redirecting standard output to file ls_cwd_content
 Task 9: Duplicate last line into file iacta.
 Task 10: delete files with .js extensions in current directories and subfolders
+Task 11: Counts number of directories and sub directories
