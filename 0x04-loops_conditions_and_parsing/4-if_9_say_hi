@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # This script displays Best scchool x9 and Hi during the 9th call
 
-i=0
-while [[ $i -lt 10 ]]
+i=1
+while [[ $i -le 11 ]]
 do
 	if [[ $i -eq 8 ]]
 	then
