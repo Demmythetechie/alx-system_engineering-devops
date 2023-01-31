@@ -1,15 +1,7 @@
 #!/usr/bin/env bash
 # This script displays in list format content in the current directory
 
-lists=ls -1
-
-for i in $lists
+for i in *
 do
-	if [[ -e $i ]]
-	then
-		echo $i
-	else
-		cut -b 1,2 i
-		echo $i
-	fi
+	echo "${i/*-/}"
 done
