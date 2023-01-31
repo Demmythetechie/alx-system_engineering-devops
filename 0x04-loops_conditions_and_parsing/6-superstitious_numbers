@@ -9,7 +9,7 @@ do
 		(i == 9) * 2 +
 		(i == 17) * 3)) in
 		(1) echo "bad luck from China" ;;
-		(2) echo "bad luvk from Japan" ;;
+		(2) echo "bad luck from Japan" ;;
 		(3) echo "bad luck from Italy" ;;
 		(0) echo "Best School" ;;
 	esac
