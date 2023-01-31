@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # This script displays Best scchool x9 and Hi during the 9th call
 
 i=0
