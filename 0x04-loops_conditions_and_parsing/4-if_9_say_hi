@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+# This script displays Best scchool x9 and Hi during the 9th call
+
+i=0
+while [[ $i -lt 10 ]]
+do
+	if [[ $i -eq 8 ]]
+	then
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+	i=$i+1
+done
