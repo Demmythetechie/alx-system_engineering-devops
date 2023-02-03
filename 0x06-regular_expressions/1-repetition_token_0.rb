@@ -1,2 +1,2 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/(hbt[t][t]?[t]?[t]?n)+/).join
+puts ARGV[0].scan(/(hbt[t]{1,4}n\n){4}/).join
