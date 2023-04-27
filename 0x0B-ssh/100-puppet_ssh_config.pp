@@ -1,3 +1,4 @@
+# Added a private key file and PasswordAuthentication
 file_line {'identifiying private key file':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
