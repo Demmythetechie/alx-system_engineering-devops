@@ -9,5 +9,4 @@ file_line {'PasswordAuthentication':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
   line   => '   PasswordAuthentication no',
-  match  => '^PasswordAuthentication',
 }
