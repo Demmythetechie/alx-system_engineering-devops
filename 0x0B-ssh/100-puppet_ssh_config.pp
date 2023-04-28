@@ -3,6 +3,7 @@ file_line {'identifiying private key file':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
   line   => '   Identify ~/.ssh/school',
+  match  => '^   Identify',
 }
 
 file_line {'PasswordAuthentication':
