@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
+# This bash script transfer files
+# from one server to another
 scp -i $4 $1 $3@$2:~/
