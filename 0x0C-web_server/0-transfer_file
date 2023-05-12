@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# This bash script transfer files
-# from one server to another
-scp -o StrictHostKeyChecking=no -i $4 $1 $3@$2:~/
