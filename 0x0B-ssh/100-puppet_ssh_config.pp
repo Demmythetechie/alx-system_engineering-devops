@@ -1,7 +1,16 @@
 # This manifest file configure the private_key and turns off password authentication
-augeas {'/etc/.ssh/ssh_config':
-  changes => [
-    "set #   PasswordAuthentication yes '   PasswordAuthentication no'",
-    "set #   IdentityFile ~/.ssh/id_rsa '   IdentityFile ~/.ssh/school'",
-  ]
+file_line {'/etc/.ssh/ssh_config':
+  ensure            => absent,
+  line              => '   PasswordAuthentication no',
+  path              => '/etc/.ssh/ssh_config',
+  match             => '^#   PasswordAuthentication yes',
+  match_for_absence => true,
+}
+
+file_line {'/etc/.ssh/ssh_config':
+  ensure            => absent,
+  line              => '   IdentityFile ~/.ssh/school',
+  path              => '/etc/.ssh/ssh_config',
+  match             => '^#   IdentityFile ~/.ssh/id_rsa',
+  match_for_absence => true,
 }
