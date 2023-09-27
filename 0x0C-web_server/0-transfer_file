@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script sends a file from my ubuntu machine to my server
 
-scp -i $4 $1 $3@$2:~/.ssh
+scp -i "$4" "$1" "$3@$2:~/.ssh"
