@@ -5,5 +5,5 @@ file_line { 'insert line at number 52':
   path   => '/etc/nginx/sites-available/default',
   line   => 'add_header X-Served-By $hostname',
   match  => '',
-  after  => 53,
+  after  => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
 }
