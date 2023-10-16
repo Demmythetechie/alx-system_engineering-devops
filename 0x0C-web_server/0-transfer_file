@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# This script sends a file from my ubuntu machine to my server
-
-scp -o "StrictHostKeyChecking=no" -i "$4" "$1" "$3@$2:~/"
+# This script transfer the file some_page.html to our server
+scp -i $4 $1 $3@$2:~/
