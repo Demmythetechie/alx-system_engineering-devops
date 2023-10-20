@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
-# This script creates a custom header for each server to be recognized
+#This script configures the web server to contain the name of the server
 
-# stop the nginx before editing
-service nginx stop
-
-# add custom header
-sed -i "53i\            add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default
-
-#start nginx
-service nginx start
+sed -i "52i\		add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default
+service nginx restart
