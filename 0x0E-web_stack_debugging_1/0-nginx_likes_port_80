@@ -3,4 +3,4 @@
 
 sudo ufw enable
 sudo ufw allow 'Nginx HTTP'
-service nginx restart
+sudo service nginx restart
