@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # This script provides solution to the nginx container
 
-sudo ufw enable
-sudo ufw allow 'Nginx HTTP'
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
 sudo service nginx restart
