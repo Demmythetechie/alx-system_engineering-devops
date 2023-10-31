@@ -1,5 +1,4 @@
 sudo ufw deny tcp
-sudo allow tcp/80
-sudo allow tcp/443
-sudo allow tcp/22
-
+sudo ufw allow tcp/80
+sudo ufw allow tcp/443
+sudo ufw allow tcp/22
