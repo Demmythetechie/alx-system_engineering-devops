@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This script tell us who a user is using whoami and the argument given
+sudo -u "$1" whoami
